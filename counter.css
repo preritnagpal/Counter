@@ -1,0 +1,102 @@
+body, html{
+ margin: 0;
+ padding: 0;
+}
+header{
+    background-color: rgb(224, 224, 224);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 8%;
+    display: flex;
+    gap: 30%;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+h3{
+    color: rgb(51, 0, 255);
+}
+h4{
+    font-size: 17px;
+}
+.counter{
+    border-radius: 10px;
+    position: absolute;
+    width: 35%;
+    height: 35%;
+    top: 33%;
+    background-color: white;
+    left: 32%;
+    box-shadow: 1px 1px 15px 15px rgba(0, 0, 0, 0.5);
+}
+.counter p{
+    font-size: 45px;
+    margin-top: 2px;
+    margin-left: 33%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.counter #value{
+    font-size: 100px;
+    position: absolute;
+    left: 44%;
+    top: 25%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn{
+    width: 20%;
+    height: 15%;
+    margin-left: 10%;
+    margin-top: 20%;
+    background-color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+@media screen and (max-width: 800px){
+    body, html{
+        margin: 0;
+        padding: 0;
+       }
+    header{
+        gap: 20%;
+        justify-content: left;
+    }
+    h3{
+        margin-left: 6%;
+    }
+    h4{
+        margin-top:5%;
+    }
+    .counter{
+        position: absolute;
+        width: 71%;
+        height: 30%;
+        top: 30%;
+        left: 5%;
+    }
+    .counter p{
+        margin-left: 21%;
+    }
+    .counter #value{
+        position: absolute;
+        left: 40%;
+        top: 20%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .btn{
+        width: 20%;
+        height: 10%;
+        gap: 1%;
+        margin-top: 30%;
+        background-color: white;
+        cursor: pointer;
+        font-size: 10px;
+    }
+    .btn:hover{
+        background-color: black;
+        color: white;
+    }
+}
